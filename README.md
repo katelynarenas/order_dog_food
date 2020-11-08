@@ -14,7 +14,7 @@ This was written and tested with Python 3.8.5, please run with that version or a
 
 To run:
 ```bash
-python3 main.py small_dogs medium_dogs large_dogs leftover_food
+python3 main.py <small_dogs> <medium_dogs> <large_dogs> <leftover_food>
 ```
 For more info:
 ```bash
