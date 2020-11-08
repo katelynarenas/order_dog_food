@@ -10,7 +10,7 @@ It returns the total amount of dog food in lbs you should order for the coming m
 
 ## Usage
 
-This was written and tested with Python 3.8.5, please run with that version or above
+This requires 3.6 or above
 
 To run:
 ```bash
