@@ -1,0 +1,14 @@
+#!/usr/bin/python
+
+import food_order
+import argparse
+
+parser = argparse.ArgumentParser()
+parser.add_argument("small_dogs", type=int, help="The number of small dogs in the shelter")
+parser.add_argument("medium_dogs", type=int, help="The number of medium dogs in the shelter")
+parser.add_argument("large_dogs", type=int, help="The number of large dogs in the shelter")
+parser.add_argument("leftover_food", type=float, help="The amount of food leftover from the previous month in lbs, can take a decimal")
+args = parser.parse_args()
+
+total_order = food_order.order_dog_food(args.small_dogs, args.medium_dogs, args.large_dogs, args.leftover_food)
+print ("Please order %s lbs of food for this month." %(total_order))
