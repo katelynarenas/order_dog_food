@@ -16,6 +16,11 @@ To run:
 ```bash
 python3 main.py small_dogs medium_dogs large_dogs leftover_food
 ```
+For more info:
+```bash
+python3 main.py -h
+```
+
 ## Run tests:
 ```bash
 python3 -m unittest
