@@ -11,4 +11,4 @@ parser.add_argument("leftover_food", type=float, help="The amount of food leftov
 args = parser.parse_args()
 
 total_order = food_order.order_dog_food(args.small_dogs, args.medium_dogs, args.large_dogs, args.leftover_food)
-print (f"Please order {total_order} lbs of food for this month.")
+print(f"Please order {total_order} lbs of food for this month.")

@@ -21,7 +21,7 @@ def order_dog_food(small: int, medium: int, large: int,
     if sum_dogs > max_capacity:
         raise Exception(
             f"You've entered {sum_dogs} which is more dogs than the shelter's max capacity of {max_capacity}. Please check your numbers and try again."
-            )
+        )
 
     minimum_order = (small * 10) + (medium * 20) + (large * 30)
 
