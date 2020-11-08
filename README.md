@@ -12,11 +12,11 @@ It returns the total amount of dog food in lbs you should order for the coming m
 
 This was written and tested with Python 3.8.5, please run with that version or above
 
-#To run:
+To run:
 ```bash
 python3 main.py small_dogs medium_dogs large_dogs leftover_food
 ```
-#To run tests:
+## Run tests:
 ```bash
 python3 -m unittest
 ```
