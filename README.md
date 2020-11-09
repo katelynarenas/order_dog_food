@@ -25,3 +25,4 @@ python3 main.py -h
 ```bash
 python3 -m unittest
 ```
+The tests also run automatically on push via github actions

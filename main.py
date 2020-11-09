@@ -1,7 +1,7 @@
 #!/usr/bin/python
 
-import food_order
 import argparse
+import food_order
 
 parser = argparse.ArgumentParser()
 parser.add_argument("small_dogs", type=int, help="The number of small dogs in the shelter")
