@@ -5,6 +5,10 @@ LARGE_DOG_MULTIPLIER = 30 #the amount of food to order per large dog
 
 
 def order_dog_food(small_dogs: int, medium_dogs: int, large_dogs: int, leftover_food: float) -> float:
+    """ Calculates the amount of food to order for the month given the number of dogs in each size category,
+        the leftover food from the previous month in lbs, and a 20% buffer
+        Returns the total_order in lbs
+    """
     if not isinstance(small_dogs, int) or not isinstance(medium_dogs, int) or not isinstance(large_dogs, int):
         raise Exception(
             "Please enter whole numbers for each dog size category")
